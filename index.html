@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulačka</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulačka</h1>
+    
+        <input type="text" id="number1" placeholder="Zadajte číslo">
+        
+        <select id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        
+        <input type="text" id="number2" placeholder="Zadajte číslo">
+        
+        <button onclick="calculate()">=</button>
+
+        <h1 class="vysledok">výsledok</h1>
+        <p id="resultValue"></p>
+        
+        <h2>História výpočtov</h2>
+        <div id="history"></div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

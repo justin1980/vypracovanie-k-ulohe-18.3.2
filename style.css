@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+}
+
+input{
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    height: 40px;
+    font-size: 35px;
+}
+
+select{
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    height: 40px;
+    font-size: 35px;
+}
+
+button{
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    height: 40px;
+    font-size: 35px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+#history{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid black;
+    width: 75%;
+    height: 40%;
+    margin: auto;
+}
+
+#history p {
+    position: relative;
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
